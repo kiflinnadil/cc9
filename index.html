@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Absensi Kehadiran - Kelompok 9</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #a8edea, #fed6e3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #009688;
+            color: white;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 1em;
+        }
+
+        main {
+            flex: 1;
+            width: 90%;
+            max-width: 700px;
+            margin-top: 40px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 14px 20px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #00796b;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e0f2f1;
+        }
+
+        .footer {
+            margin: 40px 0 20px;
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .status {
+            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 6px;
+        }
+
+        .hadir {
+            background-color: #c8e6c9;
+            color: #256029;
+        }
+
+        .izin {
+            background-color: #fff9c4;
+            color: #827717;
+        }
+
+        .alpha {
+            background-color: #ffcdd2;
+            color: #b71c1c;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Absensi Kehadiran</h1>
+        <p>Kelompok 9 - Teknologi Informasi 2025</p>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Muhammad Rizal Satria Prihadi</td>
+                    <td>232410102020</td>
+                    <td><span class="status hadir">Hadir</span></td>
+                </tr>
+                <tr>
+                    <td>Dwi Rifqi Nofrianto</td>
+                    <td>232410102021</td>
+                    <td><span class="status izin">Izin</span></td>
+                </tr>
+                <tr>
+                    <td>Mohammad Kiflin Nadhil Mahdiali</td>
+                    <td>232410102076</td>
+                    <td><span class="status hadir">Hadir</span></td>
+                </tr>
+                <tr>
+                    <td>Radifan Daanii Widyanto</td>
+                    <td>232410102078</td>
+                    <td><span class="status alpha">Alpha</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <div class="footer">
+        &copy; 2025 Kelompok 9 - Tugas Akhir Cloud Computing A
+    </div>
+</body>
+
+</html>
